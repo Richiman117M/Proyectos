@@ -1,0 +1,39 @@
+/* header.component.css */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .left h1 {
+    margin: 0;
+  }
+  
+  .right button {
+    margin-left: 10px;
+  }
+  
+  /* Estilos para el modo móvil */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .right {
+      margin-top: 10px;
+    }
+  
+    .right button {
+      margin: 5px 0;
+    }
+  }
+  

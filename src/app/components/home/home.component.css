@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff; /* Fondo blanco */
+ 
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
+/* nuevo-usuario.component.css (o tu archivo de estilos correspondiente) */
+
+.avatar {
+  width: 50px; /* Ajusta el tamaño según tus necesidades */
+  height: 50px; /* Ajusta el tamaño según tus necesidades */
+  border-radius: 50%; /* Hace que la imagen sea redonda */
+  object-fit: cover; /* Ajusta el tamaño de la imagen manteniendo la relación de aspecto */
+}

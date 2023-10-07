@@ -1,0 +1,26 @@
+.usuario-tarjeta {
+  width: 200px; 
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  width: 100%; 
+  height: auto; 
+  border-radius: 50%;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 18px; 
+  font-weight: bold;
+  margin-bottom: 0; 
+}

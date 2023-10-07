@@ -1,0 +1,15 @@
+<!-- nuevo-usuario.component.html -->
+<div class="overlay"></div>
+<div class="modal-container">
+  <h1>Agregar nuevo usuario</h1>
+  <form #userForm="ngForm" (ngSubmit)="guardarUsuario()" ngModelOptions="{ updateOn: 'submit' }">
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" type="text" id="name" name="name" [(ngModel)]="name" required>
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="submit">Guardar</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
