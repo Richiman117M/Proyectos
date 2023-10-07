@@ -1,8 +1,18 @@
+
+
+/* nuevo-usuario.component.css (o tu archivo de estilos correspondiente) */
+
+.avatar {
+  width: 50px; /* Ajusta el tamaño según tus necesidades */
+  height: 50px; /* Ajusta el tamaño según tus necesidades */
+  border-radius: 50%; /* Hace que la imagen sea redonda */
+  object-fit: cover; /* Ajusta el tamaño de la imagen manteniendo la relación de aspecto */
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #fff; /* Fondo blanco */
- 
 }
 
 .container {
@@ -15,11 +25,19 @@ body {
   background-color: #fff;
 }
 
-/* nuevo-usuario.component.css (o tu archivo de estilos correspondiente) */
+/* Estilo para el contenedor redondeado con scrollbar */
+.rounded-container {
+  border-radius: 10px; /* Ajusta según sea necesario */
+  overflow: auto; /* Esto permite que aparezca el scrollbar solo cuando sea necesario */
+  max-height: 600px; /* Ajusta la altura máxima según sea necesario */
+}
 
-.avatar {
-  width: 50px; /* Ajusta el tamaño según tus necesidades */
-  height: 50px; /* Ajusta el tamaño según tus necesidades */
-  border-radius: 50%; /* Hace que la imagen sea redonda */
-  object-fit: cover; /* Ajusta el tamaño de la imagen manteniendo la relación de aspecto */
+/* Estilos específicos para el scrollbar */
+.rounded-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.rounded-container::-webkit-scrollbar-thumb {
+  background-color: #888; /* Puedes cambiar el color */
+  border-radius: 10px;
 }
