@@ -1,0 +1,14 @@
+<!-- tu-componente.component.html -->
+<div class="contenedor-tarjetas">
+    <div *ngFor="let casa of casas" class="tarjeta">
+      <img [src]="casa.photo" alt="{{ casa.name }}">
+      <div class="informacion">
+        <h2>{{ casa.name }}</h2>
+        <p>Ubicación: {{ casa.city }}, {{ casa.state }}</p>
+        <p>WiFi: {{ casa.wifi ? 'Sí' : 'No' }}</p>
+        <p>Lavandería: {{ casa.laundry ? 'Sí' : 'No' }}</p>
+        <p>ID: {{ casa.id }}</p>
+      </div>
+    </div>
+  </div>
+  

@@ -12,6 +12,7 @@ import { NuevoUsuarioComponent } from './components/home/nuevo-usuario/nuevo-usu
 import { FormsModule } from '@angular/forms';
 import { MatDialogModule } from '@angular/material/dialog';
 import { DetallesUserComponent } from './components/home/detalles-user/detalles-user.component';
+import { CasasComponent } from './components/casas/casas.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DetallesUserComponent } from './components/home/detalles-user/detalles-
     HeaderComponent,
     Error404Component,
     NuevoUsuarioComponent,
-    DetallesUserComponent
+    DetallesUserComponent,
+    CasasComponent
   ],
   imports: [
     BrowserModule,

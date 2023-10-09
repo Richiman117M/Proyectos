@@ -1,0 +1,42 @@
+/* tu-componente.component.css */
+.contenedor-tarjetas {
+   
+    justify-content: space-around;
+    margin: 100px; /* Ajusta según sea necesario */
+  }
+  
+  .tarjeta {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    width: 350px; /* Ajusta según sea necesario */
+  }
+  
+  .tarjeta:hover {
+    transform: scale(1.05);
+  }
+  
+  .tarjeta img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .informacion {
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .contenedor-tarjetas {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .tarjeta {
+      width: 80%;
+      margin-bottom: 20px; /* Ajusta según sea necesario */
+    }
+  }
+  
